@@ -55,3 +55,24 @@
     }
   }
 }
+
+@media only screen and (max-width: 879px) {
+  .header {
+    .header-container {
+      width: 90%;
+      .content {
+        .nav-links {
+          display: none;
+        }
+      }
+      .buttons {
+        .multilanguage {
+          display: none;
+        }
+        .login {
+          display: block;
+        }
+      }
+    }
+  }
+}

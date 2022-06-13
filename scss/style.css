@@ -351,6 +351,210 @@
   font-weight: normal;
 }
 
+@media only screen and (max-width: 1667px) {
+  .home .banner .banner-content {
+    width: 95%;
+  }
+  .home .banner .banner-content .image {
+    width: 40%;
+  }
+  .home .banner .banner-content .image img {
+    width: 100%;
+  }
+  .home .banner .banner-content .image p span {
+    font-size: 2em;
+  }
+  .home .banner .banner-content .cards .card-plumbing, .home .banner .banner-content .cards .card-credit {
+    width: 220px;
+    height: 340px;
+  }
+  .home .banner .banner-content .cards .card-plumbing h1, .home .banner .banner-content .cards .card-credit h1 {
+    font-size: 1.4em;
+  }
+  .home .banner .banner-content .cards .card-credit {
+    width: 220px;
+    height: 340px;
+  }
+  .home .banner .banner-content .cards .card-credit h1 {
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (max-width: 1135px) {
+  .home .banner .banner-content {
+    width: 95%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .home .banner .banner-content .image {
+    width: 60%;
+  }
+  .home .banner .banner-content .image img {
+    width: 100%;
+  }
+  .home .banner .banner-content .image p span {
+    font-size: 2em;
+  }
+  .home .banner .banner-content .cards {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .home .banner .banner-content .cards .card-plumbing, .home .banner .banner-content .cards .card-credit {
+    padding: 20px;
+    width: 50%;
+    height: 155px;
+  }
+  .home .banner .banner-content .cards .card-plumbing h1, .home .banner .banner-content .cards .card-credit h1 {
+    font-size: 1.4em;
+    margin: 0;
+  }
+  .home .banner .banner-content .cards .card-plumbing img, .home .banner .banner-content .cards .card-credit img {
+    width: 30%;
+  }
+  .home .banner .banner-content .cards .card-credit {
+    width: 50%;
+    height: 155px;
+    padding: 20px;
+  }
+  .home .banner .banner-content .cards .card-credit h1 {
+    font-size: 1.4em;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .home .banner .banner-content {
+    width: 95%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .home .banner .banner-content .image {
+    width: 60%;
+  }
+  .home .banner .banner-content .image img {
+    width: 100%;
+  }
+  .home .banner .banner-content .image p {
+    display: none;
+  }
+  .home .banner .banner-content .cards {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .home .banner .banner-content .cards .card-plumbing, .home .banner .banner-content .cards .card-credit {
+    padding: 20px;
+    width: 50%;
+    height: 155px;
+  }
+  .home .banner .banner-content .cards .card-plumbing h1, .home .banner .banner-content .cards .card-credit h1 {
+    font-size: 1.4em;
+    margin: 0;
+  }
+  .home .banner .banner-content .cards .card-plumbing img, .home .banner .banner-content .cards .card-credit img {
+    width: 30%;
+  }
+  .home .banner .banner-content .cards .card-credit {
+    width: 50%;
+    height: 155px;
+    padding: 20px;
+  }
+  .home .banner .banner-content .cards .card-credit h1 {
+    font-size: 1.4em;
+    margin: 0;
+  }
+  .home .services-logos .services, .home .services-logos .footer .footer-columns .company, .footer .footer-columns .home .services-logos .company, .home .services-logos .footer .footer-links .company, .footer .footer-links .home .services-logos .company, .home .services-logos .footer .footer-terms .company, .footer .footer-terms .home .services-logos .company, .home .services-logos .footer .footer-columns .logos, .footer .footer-columns .home .services-logos .logos, .home .services-logos .footer .footer-links .logos, .footer .footer-links .home .services-logos .logos, .home .services-logos .footer .footer-terms .logos, .footer .footer-terms .home .services-logos .logos, .home .services-logos .footer .footer-columns .mobile-app, .footer .footer-columns .home .services-logos .mobile-app, .home .services-logos .footer .footer-links .mobile-app, .footer .footer-links .home .services-logos .mobile-app, .home .services-logos .footer .footer-terms .mobile-app, .footer .footer-terms .home .services-logos .mobile-app {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20px;
+  }
+  .home .services-logos .services .service, .home .services-logos .footer .footer-columns .company .service, .footer .footer-columns .home .services-logos .company .service, .home .services-logos .footer .footer-links .company .service, .footer .footer-links .home .services-logos .company .service, .home .services-logos .footer .footer-terms .company .service, .footer .footer-terms .home .services-logos .company .service, .home .services-logos .footer .footer-columns .logos .service, .footer .footer-columns .home .services-logos .logos .service, .home .services-logos .footer .footer-links .logos .service, .footer .footer-links .home .services-logos .logos .service, .home .services-logos .footer .footer-terms .logos .service, .footer .footer-terms .home .services-logos .logos .service, .home .services-logos .footer .footer-columns .mobile-app .service, .footer .footer-columns .home .services-logos .mobile-app .service, .home .services-logos .footer .footer-links .mobile-app .service, .footer .footer-links .home .services-logos .mobile-app .service, .home .services-logos .footer .footer-terms .mobile-app .service, .footer .footer-terms .home .services-logos .mobile-app .service {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: normal;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .home .banner .banner-content .image {
+    width: 80%;
+  }
+  .home .banner .banner-content .cards {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .home .banner .banner-content .cards .card-plumbing, .home .banner .banner-content .cards .card-credit {
+    padding: 30px;
+    width: 80%;
+    height: 100px;
+  }
+  .home .banner .banner-content .cards .card-plumbing h1, .home .banner .banner-content .cards .card-credit h1 {
+    font-size: 1.4em;
+    margin: 0;
+  }
+  .home .banner .banner-content .cards .card-plumbing img, .home .banner .banner-content .cards .card-credit img {
+    width: 30%;
+  }
+  .home .banner .banner-content .cards .card-credit {
+    padding: 30px;
+    width: 80%;
+    height: 100px;
+  }
+  .home .banner .banner-content .cards .card-credit h1 {
+    font-size: 1.4em;
+    margin: 0;
+  }
+  .home .services-logos .services, .home .services-logos .footer .footer-columns .company, .footer .footer-columns .home .services-logos .company, .home .services-logos .footer .footer-links .company, .footer .footer-links .home .services-logos .company, .home .services-logos .footer .footer-terms .company, .footer .footer-terms .home .services-logos .company, .home .services-logos .footer .footer-columns .logos, .footer .footer-columns .home .services-logos .logos, .home .services-logos .footer .footer-links .logos, .footer .footer-links .home .services-logos .logos, .home .services-logos .footer .footer-terms .logos, .footer .footer-terms .home .services-logos .logos, .home .services-logos .footer .footer-columns .mobile-app, .footer .footer-columns .home .services-logos .mobile-app, .home .services-logos .footer .footer-links .mobile-app, .footer .footer-links .home .services-logos .mobile-app, .home .services-logos .footer .footer-terms .mobile-app, .footer .footer-terms .home .services-logos .mobile-app {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20px;
+  }
+  .home .services-logos .services .service, .home .services-logos .footer .footer-columns .company .service, .footer .footer-columns .home .services-logos .company .service, .home .services-logos .footer .footer-links .company .service, .footer .footer-links .home .services-logos .company .service, .home .services-logos .footer .footer-terms .company .service, .footer .footer-terms .home .services-logos .company .service, .home .services-logos .footer .footer-columns .logos .service, .footer .footer-columns .home .services-logos .logos .service, .home .services-logos .footer .footer-links .logos .service, .footer .footer-links .home .services-logos .logos .service, .home .services-logos .footer .footer-terms .logos .service, .footer .footer-terms .home .services-logos .logos .service, .home .services-logos .footer .footer-columns .mobile-app .service, .footer .footer-columns .home .services-logos .mobile-app .service, .home .services-logos .footer .footer-links .mobile-app .service, .footer .footer-links .home .services-logos .mobile-app .service, .home .services-logos .footer .footer-terms .mobile-app .service, .footer .footer-terms .home .services-logos .mobile-app .service {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: normal;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+}
+
 .footer {
   color: #1c2536;
   padding: 100px 0 0 0;
@@ -605,6 +809,21 @@
   border-radius: 10px;
   font-weight: bold;
   color: #1c2536;
+}
+
+@media only screen and (max-width: 879px) {
+  .header .header-container {
+    width: 90%;
+  }
+  .header .header-container .content .nav-links {
+    display: none;
+  }
+  .header .header-container .buttons .multilanguage, .header .header-container .buttons .footer .footer-links .info .location, .footer .footer-links .info .header .header-container .buttons .location, .header .header-container .buttons .footer .footer-terms .info .location, .footer .footer-terms .info .header .header-container .buttons .location, .header .header-container .buttons .login {
+    display: none;
+  }
+  .header .header-container .buttons .login {
+    display: block;
+  }
 }
 
 body {
