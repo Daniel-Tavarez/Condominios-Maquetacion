@@ -1,0 +1,139 @@
+@import "./variables";
+
+.footer {
+  color: $secondary-color;
+  padding: 100px 0 0 0;
+  .footer-columns {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .services {
+      h1 {
+        margin-bottom: 30px;
+      }
+      width: 300px;
+      ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+      }
+    }
+    .company {
+      @extend .services;
+    }
+    .logos {
+      @extend .services;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      img {
+        max-width: 200px;
+      }
+    }
+    .mobile-app {
+      @extend .services;
+      .market-logos {
+        display: flex;
+        .market-button {
+          padding: 0;
+          width: 50%;
+          background-color: transparent;
+          border: none;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .footer-links {
+    @extend .footer-columns;
+    margin: 100px auto;
+    align-items: center;
+    justify-content: space-between;
+    .social-media {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+    .info {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .multilanguage {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        img {
+          width: 30px;
+          height: 30px;
+        }
+      }
+      .location {
+        @extend .multilanguage;
+        gap: 5px;
+      }
+    }
+  }
+  .footer-terms {
+    @extend .footer-links;
+    margin-bottom: 20px;
+    .terms {
+      ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1412px) {
+  .footer {
+    .footer-columns {
+      .services {
+        width: 50%;
+      }
+      .logo {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  .footer {
+    .footer-columns {
+      .services {
+        width: 100%;
+      }
+      .logo {
+        margin-top: 20px;
+      }
+      .mobile-app {
+        margin-top: 50px;
+      }
+    }
+    .footer-links {
+      flex-direction: column;
+      gap: 20px;
+      .info {
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+    .footer-terms {
+      flex-direction: column-reverse;
+    }
+  }
+}

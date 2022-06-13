@@ -1,0 +1,57 @@
+@import "./variables";
+
+.header {
+  padding: 10px 0;
+  background-color: $secondary-color;
+  .header-container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .content {
+      display: flex;
+      align-items: center;
+      .logo {
+        width: 120px;
+        height: auto;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      .nav-links {
+        .links {
+          list-style: none;
+          display: flex;
+          gap: 30px;
+          color: #fff;
+        }
+      }
+    }
+    .buttons {
+      display: flex;
+      gap: 20px;
+      .multilanguage {
+        background-color: transparent;
+        color: #fff;
+        border: none;
+      }
+      .login {
+        @extend .multilanguage;
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+      .register {
+        background-color: #fff;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 10px;
+        font-weight: bold;
+        color: $secondary-color;
+      }
+    }
+  }
+}

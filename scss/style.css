@@ -1,0 +1,615 @@
+.login-container .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.login-container .login .image {
+  width: 70%;
+  height: 100vh;
+}
+
+.login-container .login .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.login-container .login .login-content {
+  width: 30%;
+  min-width: 400px;
+  position: relative;
+  padding: 30px;
+}
+
+.login-container .login .login-content .action-top-buttons {
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-container .login .login-content .action-top-buttons .back-button, .login-container .login .login-content .action-top-buttons .multilanguage, .login-container .login .login-content .action-top-buttons .footer .footer-links .info .location, .footer .footer-links .info .login-container .login .login-content .action-top-buttons .location, .login-container .login .login-content .action-top-buttons .footer .footer-terms .info .location, .footer .footer-terms .info .login-container .login .login-content .action-top-buttons .location, .login-container .login .login-content .action-top-buttons .header .header-container .buttons .login, .header .header-container .buttons .login-container .login .login-content .action-top-buttons .login {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  position: relative;
+}
+
+.login-container .login .login-content .action-top-buttons .back-button a, .login-container .login .login-content .action-top-buttons .multilanguage a, .login-container .login .login-content .action-top-buttons .footer .footer-links .info .location a, .footer .footer-links .info .login-container .login .login-content .action-top-buttons .location a, .login-container .login .login-content .action-top-buttons .footer .footer-terms .info .location a, .footer .footer-terms .info .login-container .login .login-content .action-top-buttons .location a, .login-container .login .login-content .action-top-buttons .header .header-container .buttons .login a, .header .header-container .buttons .login-container .login .login-content .action-top-buttons .login a {
+  text-decoration: none;
+  color: #000;
+}
+
+.login-container .login .login-content .action-top-buttons .back-button::before, .login-container .login .login-content .action-top-buttons .multilanguage::before, .login-container .login .login-content .action-top-buttons .footer .footer-links .info .location::before, .footer .footer-links .info .login-container .login .login-content .action-top-buttons .location::before, .login-container .login .login-content .action-top-buttons .footer .footer-terms .info .location::before, .footer .footer-terms .info .login-container .login .login-content .action-top-buttons .location::before, .login-container .login .login-content .action-top-buttons .header .header-container .buttons .login::before, .header .header-container .buttons .login-container .login .login-content .action-top-buttons .login::before {
+  content: "";
+  background: url(../img/back.png);
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+
+.login-container .login .login-content .action-top-buttons .multilanguage, .login-container .login .login-content .action-top-buttons .footer .footer-links .info .location, .footer .footer-links .info .login-container .login .login-content .action-top-buttons .location, .login-container .login .login-content .action-top-buttons .footer .footer-terms .info .location, .footer .footer-terms .info .login-container .login .login-content .action-top-buttons .location, .login-container .login .login-content .action-top-buttons .header .header-container .buttons .login, .header .header-container .buttons .login-container .login .login-content .action-top-buttons .login {
+  font-weight: normal;
+}
+
+.login-container .login .login-content .login-logo {
+  padding-top: 50px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-container .login .login-content .login-logo img {
+  width: 250px;
+}
+
+.login-container .login .login-content .login-logo span {
+  color: #f06464;
+  font-size: 1.2em;
+}
+
+.login-container .login .login-content .login-form {
+  margin: 50px auto;
+  max-width: 320px;
+}
+
+.login-container .login .login-content .login-form:first-child {
+  margin-bottom: 20px;
+}
+
+.login-container .login .login-content .login-form .input-container {
+  margin-bottom: 20px;
+}
+
+.login-container .login .login-content .login-form .input-container span {
+  color: #90b1b9;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.login-container .login .login-content .login-form .input-container input {
+  margin-top: 5px;
+}
+
+.login-container .login .login-content .login-form .input-check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.login-container .login .login-content .login-form .input-check input {
+  width: 18px;
+  height: 18px;
+}
+
+.login-container .login .login-content .login-form .input-check span {
+  font-size: 14px;
+}
+
+.login-container .login .login-content .login-form .login-button {
+  margin-top: 20px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-container .login .login-content .login-form .login-button .button {
+  width: 100%;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  height: 40px;
+  border: none;
+  background-color: #f06464;
+  margin-bottom: 10px;
+}
+
+.login-container .login .login-content .login-form .login-button span {
+  color: #f06464;
+}
+
+.login-container .login .login-content .login-form .register-link {
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 1.3em;
+}
+
+.login-container .login .login-content .login-form .register-link a {
+  text-decoration: none;
+  color: #f06464;
+  font-weight: bold;
+}
+
+.login-container .login .login-content .copyright span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 850px) {
+  .login-container .login .image {
+    display: none;
+  }
+  .login-container .login .login-content {
+    width: 100%;
+  }
+}
+
+.home .banner {
+  width: 100%;
+  background-color: #e3f1ff;
+}
+
+.home .banner .banner-content {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home .banner .banner-content .image {
+  position: relative;
+  height: 100%;
+}
+
+.home .banner .banner-content .image img {
+  height: 100%;
+}
+
+.home .banner .banner-content .image p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 44%;
+  color: #1c2536;
+  right: -156px;
+  font-size: 1.5em;
+}
+
+.home .banner .banner-content .image p span {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.home .banner .banner-content .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.home .banner .banner-content .cards .card-plumbing, .home .banner .banner-content .cards .card-credit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+  gap: 20px;
+  height: 500px;
+  border-radius: 20px;
+  background-color: #f8d241;
+}
+
+.home .banner .banner-content .cards .card-plumbing img, .home .banner .banner-content .cards .card-credit img {
+  width: 50%;
+}
+
+.home .banner .banner-content .cards .card-plumbing h1, .home .banner .banner-content .cards .card-credit h1 {
+  font-size: 2em;
+  text-align: center;
+  color: #1c2536;
+}
+
+.home .banner .banner-content .cards .card-credit {
+  background-color: #1c2536;
+}
+
+.home .banner .banner-content .cards .card-credit h1 {
+  color: #f8d241;
+}
+
+.home .services-logos {
+  background-color: #1c2536;
+}
+
+.home .services-logos .services, .home .services-logos .footer .footer-columns .company, .footer .footer-columns .home .services-logos .company, .home .services-logos .footer .footer-links .company, .footer .footer-links .home .services-logos .company, .home .services-logos .footer .footer-terms .company, .footer .footer-terms .home .services-logos .company, .home .services-logos .footer .footer-columns .logos, .footer .footer-columns .home .services-logos .logos, .home .services-logos .footer .footer-links .logos, .footer .footer-links .home .services-logos .logos, .home .services-logos .footer .footer-terms .logos, .footer .footer-terms .home .services-logos .logos, .home .services-logos .footer .footer-columns .mobile-app, .footer .footer-columns .home .services-logos .mobile-app, .home .services-logos .footer .footer-links .mobile-app, .footer .footer-links .home .services-logos .mobile-app, .home .services-logos .footer .footer-terms .mobile-app, .footer .footer-terms .home .services-logos .mobile-app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 0;
+  color: #fff;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.home .services-logos .services .service, .home .services-logos .footer .footer-columns .company .service, .footer .footer-columns .home .services-logos .company .service, .home .services-logos .footer .footer-links .company .service, .footer .footer-links .home .services-logos .company .service, .home .services-logos .footer .footer-terms .company .service, .footer .footer-terms .home .services-logos .company .service, .home .services-logos .footer .footer-columns .logos .service, .footer .footer-columns .home .services-logos .logos .service, .home .services-logos .footer .footer-links .logos .service, .footer .footer-links .home .services-logos .logos .service, .home .services-logos .footer .footer-terms .logos .service, .footer .footer-terms .home .services-logos .logos .service, .home .services-logos .footer .footer-columns .mobile-app .service, .footer .footer-columns .home .services-logos .mobile-app .service, .home .services-logos .footer .footer-links .mobile-app .service, .footer .footer-links .home .services-logos .mobile-app .service, .home .services-logos .footer .footer-terms .mobile-app .service, .footer .footer-terms .home .services-logos .mobile-app .service {
+  width: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.home .services-logos .services .service img, .home .services-logos .footer .footer-columns .company .service img, .footer .footer-columns .home .services-logos .company .service img, .home .services-logos .footer .footer-links .company .service img, .footer .footer-links .home .services-logos .company .service img, .home .services-logos .footer .footer-terms .company .service img, .footer .footer-terms .home .services-logos .company .service img, .home .services-logos .footer .footer-columns .logos .service img, .footer .footer-columns .home .services-logos .logos .service img, .home .services-logos .footer .footer-links .logos .service img, .footer .footer-links .home .services-logos .logos .service img, .home .services-logos .footer .footer-terms .logos .service img, .footer .footer-terms .home .services-logos .logos .service img, .home .services-logos .footer .footer-columns .mobile-app .service img, .footer .footer-columns .home .services-logos .mobile-app .service img, .home .services-logos .footer .footer-links .mobile-app .service img, .footer .footer-links .home .services-logos .mobile-app .service img, .home .services-logos .footer .footer-terms .mobile-app .service img, .footer .footer-terms .home .services-logos .mobile-app .service img {
+  width: 80px;
+}
+
+.home .information-banner {
+  width: 100%;
+  background-image: url(../img/santo-domingo-bg.png);
+  padding: 30px 0;
+}
+
+.home .information-banner .content {
+  width: 80%;
+  margin: auto;
+  padding: 50px 0;
+  color: #1c2536;
+  font-size: 2em;
+}
+
+.home .information-banner .content h1 {
+  font-weight: normal;
+  margin: 0;
+}
+
+.home .information-banner .content .information-button {
+  cursor: pointer;
+  padding: 10px 30px;
+  background-color: #1c2536;
+  color: #fff;
+  font-size: 0.8em;
+  border: none;
+  border-radius: 5px;
+  font-weight: normal;
+}
+
+.footer {
+  color: #1c2536;
+  padding: 100px 0 0 0;
+}
+
+.footer .footer-columns, .footer .footer-links, .footer .footer-terms {
+  width: 85%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer .footer-columns .services, .footer .footer-links .services, .footer .footer-terms .services, .footer .footer-columns .company, .footer .footer-terms .footer-columns .company, .footer .footer-columns .footer-terms .company, .footer .footer-links .company, .footer .footer-terms .footer-links .company, .footer .footer-links .footer-terms .company, .footer .footer-columns .footer-terms .company, .footer .footer-terms .footer-columns .company, .footer .footer-links .footer-terms .company, .footer .footer-terms .footer-links .company, .footer .footer-terms .company, .footer .footer-columns .logos, .footer .footer-terms .footer-columns .logos, .footer .footer-columns .footer-terms .logos, .footer .footer-links .logos, .footer .footer-terms .footer-links .logos, .footer .footer-links .footer-terms .logos, .footer .footer-columns .footer-terms .logos, .footer .footer-terms .footer-columns .logos, .footer .footer-links .footer-terms .logos, .footer .footer-terms .footer-links .logos, .footer .footer-terms .logos, .footer .footer-columns .mobile-app, .footer .footer-terms .footer-columns .mobile-app, .footer .footer-columns .footer-terms .mobile-app, .footer .footer-links .mobile-app, .footer .footer-terms .footer-links .mobile-app, .footer .footer-links .footer-terms .mobile-app, .footer .footer-columns .footer-terms .mobile-app, .footer .footer-terms .footer-columns .mobile-app, .footer .footer-links .footer-terms .mobile-app, .footer .footer-terms .footer-links .mobile-app, .footer .footer-terms .mobile-app {
+  width: 300px;
+}
+
+.footer .footer-columns .services h1, .footer .footer-links .services h1, .footer .footer-terms .services h1, .footer .footer-columns .company h1, .footer .footer-terms .footer-columns .company h1, .footer .footer-columns .footer-terms .company h1, .footer .footer-links .company h1, .footer .footer-terms .footer-links .company h1, .footer .footer-links .footer-terms .company h1, .footer .footer-columns .footer-terms .company h1, .footer .footer-terms .footer-columns .company h1, .footer .footer-links .footer-terms .company h1, .footer .footer-terms .footer-links .company h1, .footer .footer-terms .company h1, .footer .footer-columns .logos h1, .footer .footer-terms .footer-columns .logos h1, .footer .footer-columns .footer-terms .logos h1, .footer .footer-links .logos h1, .footer .footer-terms .footer-links .logos h1, .footer .footer-links .footer-terms .logos h1, .footer .footer-columns .footer-terms .logos h1, .footer .footer-terms .footer-columns .logos h1, .footer .footer-links .footer-terms .logos h1, .footer .footer-terms .footer-links .logos h1, .footer .footer-terms .logos h1, .footer .footer-columns .mobile-app h1, .footer .footer-terms .footer-columns .mobile-app h1, .footer .footer-columns .footer-terms .mobile-app h1, .footer .footer-links .mobile-app h1, .footer .footer-terms .footer-links .mobile-app h1, .footer .footer-links .footer-terms .mobile-app h1, .footer .footer-columns .footer-terms .mobile-app h1, .footer .footer-terms .footer-columns .mobile-app h1, .footer .footer-links .footer-terms .mobile-app h1, .footer .footer-terms .footer-links .mobile-app h1, .footer .footer-terms .mobile-app h1 {
+  margin-bottom: 30px;
+}
+
+.footer .footer-columns .services ul, .footer .footer-links .services ul, .footer .footer-terms .services ul, .footer .footer-columns .company ul, .footer .footer-terms .footer-columns .company ul, .footer .footer-columns .footer-terms .company ul, .footer .footer-links .company ul, .footer .footer-terms .footer-links .company ul, .footer .footer-links .footer-terms .company ul, .footer .footer-columns .footer-terms .company ul, .footer .footer-terms .footer-columns .company ul, .footer .footer-links .footer-terms .company ul, .footer .footer-terms .footer-links .company ul, .footer .footer-terms .company ul, .footer .footer-columns .logos ul, .footer .footer-terms .footer-columns .logos ul, .footer .footer-columns .footer-terms .logos ul, .footer .footer-links .logos ul, .footer .footer-terms .footer-links .logos ul, .footer .footer-links .footer-terms .logos ul, .footer .footer-columns .footer-terms .logos ul, .footer .footer-terms .footer-columns .logos ul, .footer .footer-links .footer-terms .logos ul, .footer .footer-terms .footer-links .logos ul, .footer .footer-terms .logos ul, .footer .footer-columns .mobile-app ul, .footer .footer-terms .footer-columns .mobile-app ul, .footer .footer-columns .footer-terms .mobile-app ul, .footer .footer-links .mobile-app ul, .footer .footer-terms .footer-links .mobile-app ul, .footer .footer-links .footer-terms .mobile-app ul, .footer .footer-columns .footer-terms .mobile-app ul, .footer .footer-terms .footer-columns .mobile-app ul, .footer .footer-links .footer-terms .mobile-app ul, .footer .footer-terms .footer-links .mobile-app ul, .footer .footer-terms .mobile-app ul {
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 25px;
+}
+
+.footer .footer-columns .logos, .footer .footer-links .logos, .footer .footer-terms .logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+.footer .footer-columns .logos img, .footer .footer-links .logos img, .footer .footer-terms .logos img {
+  max-width: 200px;
+}
+
+.footer .footer-columns .mobile-app .market-logos, .footer .footer-links .mobile-app .market-logos, .footer .footer-terms .mobile-app .market-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .footer-columns .mobile-app .market-logos .market-button, .footer .footer-links .mobile-app .market-logos .market-button, .footer .footer-terms .mobile-app .market-logos .market-button {
+  padding: 0;
+  width: 50%;
+  background-color: transparent;
+  border: none;
+}
+
+.footer .footer-columns .mobile-app .market-logos .market-button img, .footer .footer-links .mobile-app .market-logos .market-button img, .footer .footer-terms .mobile-app .market-logos .market-button img {
+  width: 100%;
+}
+
+.footer .footer-links, .footer .footer-terms {
+  margin: 100px auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer-links .social-media, .footer .footer-terms .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.footer .footer-links .social-media img, .footer .footer-terms .social-media img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer .footer-links .info, .footer .footer-terms .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.footer .footer-links .info .multilanguage, .footer .footer-terms .info .multilanguage, .footer .footer-links .info .location, .footer .footer-links .footer-terms .info .location, .footer .footer-terms .footer-links .info .location, .footer .footer-terms .info .location, .footer .footer-links .info .header .header-container .buttons .login, .header .header-container .buttons .footer .footer-links .info .login, .footer .footer-terms .info .header .header-container .buttons .login, .header .header-container .buttons .footer .footer-terms .info .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+.footer .footer-links .info .multilanguage img, .footer .footer-terms .info .multilanguage img, .footer .footer-links .info .location img, .footer .footer-links .footer-terms .info .location img, .footer .footer-terms .footer-links .info .location img, .footer .footer-terms .info .location img, .footer .footer-links .info .header .header-container .buttons .login img, .header .header-container .buttons .footer .footer-links .info .login img, .footer .footer-terms .info .header .header-container .buttons .login img, .header .header-container .buttons .footer .footer-terms .info .login img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer .footer-links .info .location, .footer .footer-terms .info .location {
+  gap: 5px;
+}
+
+.footer .footer-terms {
+  margin-bottom: 20px;
+}
+
+.footer .footer-terms .terms ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  padding: 0;
+}
+
+@media only screen and (max-width: 1412px) {
+  .footer .footer-columns .services, .footer .footer-links .services, .footer .footer-terms .services, .footer .footer-columns .company, .footer .footer-terms .footer-columns .company, .footer .footer-columns .footer-terms .company, .footer .footer-links .company, .footer .footer-terms .footer-links .company, .footer .footer-links .footer-terms .company, .footer .footer-columns .footer-terms .company, .footer .footer-terms .footer-columns .company, .footer .footer-links .footer-terms .company, .footer .footer-terms .footer-links .company, .footer .footer-terms .company, .footer .footer-columns .logos, .footer .footer-terms .footer-columns .logos, .footer .footer-columns .footer-terms .logos, .footer .footer-links .logos, .footer .footer-terms .footer-links .logos, .footer .footer-links .footer-terms .logos, .footer .footer-columns .footer-terms .logos, .footer .footer-terms .footer-columns .logos, .footer .footer-links .footer-terms .logos, .footer .footer-terms .footer-links .logos, .footer .footer-terms .logos, .footer .footer-columns .mobile-app, .footer .footer-terms .footer-columns .mobile-app, .footer .footer-columns .footer-terms .mobile-app, .footer .footer-links .mobile-app, .footer .footer-terms .footer-links .mobile-app, .footer .footer-links .footer-terms .mobile-app, .footer .footer-columns .footer-terms .mobile-app, .footer .footer-terms .footer-columns .mobile-app, .footer .footer-links .footer-terms .mobile-app, .footer .footer-terms .footer-links .mobile-app, .footer .footer-terms .mobile-app {
+    width: 50%;
+  }
+  .footer .footer-columns .logo, .footer .footer-links .logo, .footer .footer-terms .logo {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  .footer .footer-columns .services, .footer .footer-links .services, .footer .footer-terms .services, .footer .footer-columns .company, .footer .footer-terms .footer-columns .company, .footer .footer-columns .footer-terms .company, .footer .footer-links .company, .footer .footer-terms .footer-links .company, .footer .footer-links .footer-terms .company, .footer .footer-columns .footer-terms .company, .footer .footer-terms .footer-columns .company, .footer .footer-links .footer-terms .company, .footer .footer-terms .footer-links .company, .footer .footer-terms .company, .footer .footer-columns .logos, .footer .footer-terms .footer-columns .logos, .footer .footer-columns .footer-terms .logos, .footer .footer-links .logos, .footer .footer-terms .footer-links .logos, .footer .footer-links .footer-terms .logos, .footer .footer-columns .footer-terms .logos, .footer .footer-terms .footer-columns .logos, .footer .footer-links .footer-terms .logos, .footer .footer-terms .footer-links .logos, .footer .footer-terms .logos, .footer .footer-columns .mobile-app, .footer .footer-terms .footer-columns .mobile-app, .footer .footer-columns .footer-terms .mobile-app, .footer .footer-links .mobile-app, .footer .footer-terms .footer-links .mobile-app, .footer .footer-links .footer-terms .mobile-app, .footer .footer-columns .footer-terms .mobile-app, .footer .footer-terms .footer-columns .mobile-app, .footer .footer-links .footer-terms .mobile-app, .footer .footer-terms .footer-links .mobile-app, .footer .footer-terms .mobile-app {
+    width: 100%;
+  }
+  .footer .footer-columns .logo, .footer .footer-links .logo, .footer .footer-terms .logo {
+    margin-top: 20px;
+  }
+  .footer .footer-columns .mobile-app, .footer .footer-links .mobile-app, .footer .footer-terms .mobile-app {
+    margin-top: 50px;
+  }
+  .footer .footer-links, .footer .footer-terms {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+  .footer .footer-links .info, .footer .footer-terms .info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+  .footer .footer-terms {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+.header {
+  padding: 10px 0;
+  background-color: #1c2536;
+}
+
+.header .header-container {
+  width: 85%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .header-container .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header-container .content .logo {
+  width: 120px;
+  height: auto;
+}
+
+.header .header-container .content .logo img {
+  width: 100%;
+  height: auto;
+}
+
+.header .header-container .content .nav-links .links {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  color: #fff;
+}
+
+.header .header-container .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.header .header-container .buttons .multilanguage, .header .header-container .buttons .footer .footer-links .info .location, .footer .footer-links .info .header .header-container .buttons .location, .header .header-container .buttons .footer .footer-terms .info .location, .footer .footer-terms .info .header .header-container .buttons .location, .header .header-container .buttons .login {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.header .header-container .buttons .login a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header .header-container .buttons .register {
+  background-color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #1c2536;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+/*# sourceMappingURL=style.css.map */
