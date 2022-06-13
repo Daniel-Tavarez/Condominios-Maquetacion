@@ -508,7 +508,7 @@
             align-items: center;
   }
   .home .banner .banner-content .cards .card-plumbing, .home .banner .banner-content .cards .card-credit {
-    padding: 30px;
+    padding: 50px 30px;
     width: 80%;
     height: 100px;
   }
@@ -520,7 +520,7 @@
     width: 30%;
   }
   .home .banner .banner-content .cards .card-credit {
-    padding: 30px;
+    padding: 50px 30px;
     width: 80%;
     height: 100px;
   }
