@@ -1,0 +1,148 @@
+.configuration {
+  margin: 50px 0;
+  .configuration-content {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    gap: 30px;
+    justify-content: center;
+    .left-side {
+      width: 40%;
+      .profile {
+        padding: 20px;
+        background-color: #fff;
+        h1 {
+          margin: 5px 0;
+        }
+        .profile-content {
+          display: flex;
+          width: 90%;
+          margin: auto;
+          gap: 40px;
+          .profile-image {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            button {
+              color: $primary-color;
+              font-weight: bold;
+              background-color: transparent;
+              border: none;
+            }
+          }
+          .profile-info {
+            h4 {
+              font-size: 1em;
+              color: #afafaf;
+            }
+            .action-buttons {
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              gap: 5px;
+              button {
+                padding: 0;
+                color: $primary-color;
+                font-weight: bold;
+                background-color: transparent;
+                border: none;
+              }
+            }
+          }
+        }
+      }
+      .account-options {
+        margin-top: 30px;
+        padding: 20px;
+        background-color: #fff;
+        .account-options-container {
+          .input-container {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 2px solid #000;
+            padding: 20px 0;
+            align-items: center;
+            span {
+              width: 50%;
+            }
+            select {
+              width: 50%;
+            }
+          }
+          .content-container {
+            &:last-child {
+              border-bottom: none;
+            }
+            button {
+              padding: 0;
+              color: $primary-color;
+              font-weight: bold;
+              background-color: transparent;
+              border: none;
+            }
+            @extend .input-container;
+          }
+        }
+      }
+      .share-services {
+        margin-top: 30px;
+        padding: 20px;
+        background-color: #fff;
+        .share-services-container {
+          .input-container {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 2px solid #000;
+            padding: 20px 0;
+            &:last-child {
+              border-bottom: none;
+            }
+            button {
+              padding: 0;
+              color: $primary-color;
+              font-weight: bold;
+              background-color: transparent;
+              border: none;
+            }
+          }
+        }
+        .all-accounts {
+          margin-top: 20px;
+          padding: 0;
+          color: $primary-color;
+          font-weight: bold;
+          background-color: transparent;
+          border: none;
+        }
+      }
+    }
+    .right-side {
+      @extend .left-side;
+      .directions {
+        padding: 20px;
+        background-color: #fff;
+        .upper-content {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-bottom: 10px;
+        }
+        .direction-info {
+          display: flex;
+          margin: 15px 0;
+          justify-content: space-between;
+          .info {
+            p {
+              margin: 0;
+              font-weight: bold;
+              color: #00000099;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      
+    }
+  }
+}

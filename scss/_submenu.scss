@@ -1,0 +1,21 @@
+@import "./variables";
+
+.submenu {
+  background-color: $primary-color;
+  width: 100%;
+  .submenu-content {
+    width: 68%;
+    padding: 15px 0;
+    margin: auto;
+    text-transform: uppercase;
+    ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      gap: 20px;
+      font-weight: bold;
+      color: $secondary-color;
+    }
+  }
+}

@@ -3,9 +3,16 @@
 @import './home';
 @import './footer';
 @import './header';
+@import './submenu';
+@import './settings';
+@import './buttons';
 
 body {
   margin: 0;
   padding: 0;
   font-family: arial;
+  background-color: #f5f7fa !important;
+}
+h1{
+  font-size: 1.5em !important;
 }

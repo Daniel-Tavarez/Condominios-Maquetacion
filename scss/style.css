@@ -20,6 +20,7 @@
   width: 30%;
   min-width: 400px;
   position: relative;
+  background-color: #fff;
   padding: 30px;
 }
 
@@ -96,17 +97,17 @@
   margin-bottom: 20px;
 }
 
-.login-container .login .login-content .login-form .input-container {
+.login-container .login .login-content .login-form .input-container, .login-container .login .login-content .login-form .configuration .configuration-content .left-side .account-options .account-options-container .content-container, .configuration .configuration-content .left-side .account-options .account-options-container .login-container .login .login-content .login-form .content-container, .login-container .login .login-content .login-form .configuration .configuration-content .right-side .account-options .account-options-container .content-container, .configuration .configuration-content .right-side .account-options .account-options-container .login-container .login .login-content .login-form .content-container {
   margin-bottom: 20px;
 }
 
-.login-container .login .login-content .login-form .input-container span {
+.login-container .login .login-content .login-form .input-container span, .login-container .login .login-content .login-form .configuration .configuration-content .left-side .account-options .account-options-container .content-container span, .configuration .configuration-content .left-side .account-options .account-options-container .login-container .login .login-content .login-form .content-container span, .login-container .login .login-content .login-form .configuration .configuration-content .right-side .account-options .account-options-container .content-container span, .configuration .configuration-content .right-side .account-options .account-options-container .login-container .login .login-content .login-form .content-container span {
   color: #90b1b9;
   font-weight: bold;
   font-size: 14px;
 }
 
-.login-container .login .login-content .login-form .input-container input {
+.login-container .login .login-content .login-form .input-container input, .login-container .login .login-content .login-form .configuration .configuration-content .left-side .account-options .account-options-container .content-container input, .configuration .configuration-content .left-side .account-options .account-options-container .login-container .login .login-content .login-form .content-container input, .login-container .login .login-content .login-form .configuration .configuration-content .right-side .account-options .account-options-container .content-container input, .configuration .configuration-content .right-side .account-options .account-options-container .login-container .login .login-content .login-form .content-container input {
   margin-top: 5px;
 }
 
@@ -782,6 +783,7 @@
   display: flex;
   gap: 30px;
   color: #fff;
+  margin: 0;
 }
 
 .header .header-container .buttons {
@@ -826,9 +828,254 @@
   }
 }
 
+.submenu {
+  background-color: #f06464;
+  width: 100%;
+}
+
+.submenu .submenu-content {
+  width: 68%;
+  padding: 15px 0;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+.submenu .submenu-content ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+  font-weight: bold;
+  color: #1c2536;
+}
+
+.configuration {
+  margin: 50px 0;
+}
+
+.configuration .configuration-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 85%;
+  margin: auto;
+  gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.configuration .configuration-content .left-side, .configuration .configuration-content .right-side {
+  width: 40%;
+}
+
+.configuration .configuration-content .left-side .profile, .configuration .configuration-content .right-side .profile {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.configuration .configuration-content .left-side .profile h1, .configuration .configuration-content .right-side .profile h1 {
+  margin: 5px 0;
+}
+
+.configuration .configuration-content .left-side .profile .profile-content, .configuration .configuration-content .right-side .profile .profile-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  gap: 40px;
+}
+
+.configuration .configuration-content .left-side .profile .profile-content .profile-image, .configuration .configuration-content .right-side .profile .profile-content .profile-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+.configuration .configuration-content .left-side .profile .profile-content .profile-image button, .configuration .configuration-content .right-side .profile .profile-content .profile-image button {
+  color: #f06464;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+}
+
+.configuration .configuration-content .left-side .profile .profile-content .profile-info h4, .configuration .configuration-content .right-side .profile .profile-content .profile-info h4 {
+  font-size: 1em;
+  color: #afafaf;
+}
+
+.configuration .configuration-content .left-side .profile .profile-content .profile-info .action-buttons, .configuration .configuration-content .right-side .profile .profile-content .profile-info .action-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 5px;
+}
+
+.configuration .configuration-content .left-side .profile .profile-content .profile-info .action-buttons button, .configuration .configuration-content .right-side .profile .profile-content .profile-info .action-buttons button {
+  padding: 0;
+  color: #f06464;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+}
+
+.configuration .configuration-content .left-side .account-options, .configuration .configuration-content .right-side .account-options {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.configuration .configuration-content .left-side .account-options .account-options-container .input-container, .configuration .configuration-content .right-side .account-options .account-options-container .input-container, .configuration .configuration-content .left-side .account-options .account-options-container .content-container, .configuration .configuration-content .right-side .account-options .account-options-container .content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 2px solid #000;
+  padding: 20px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.configuration .configuration-content .left-side .account-options .account-options-container .input-container span, .configuration .configuration-content .right-side .account-options .account-options-container .input-container span, .configuration .configuration-content .left-side .account-options .account-options-container .content-container span, .configuration .configuration-content .right-side .account-options .account-options-container .content-container span {
+  width: 50%;
+}
+
+.configuration .configuration-content .left-side .account-options .account-options-container .input-container select, .configuration .configuration-content .right-side .account-options .account-options-container .input-container select, .configuration .configuration-content .left-side .account-options .account-options-container .content-container select, .configuration .configuration-content .right-side .account-options .account-options-container .content-container select {
+  width: 50%;
+}
+
+.configuration .configuration-content .left-side .account-options .account-options-container .content-container:last-child, .configuration .configuration-content .right-side .account-options .account-options-container .content-container:last-child {
+  border-bottom: none;
+}
+
+.configuration .configuration-content .left-side .account-options .account-options-container .content-container button, .configuration .configuration-content .right-side .account-options .account-options-container .content-container button {
+  padding: 0;
+  color: #f06464;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+}
+
+.configuration .configuration-content .left-side .share-services, .configuration .configuration-content .right-side .share-services {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.configuration .configuration-content .left-side .share-services .share-services-container .input-container, .configuration .configuration-content .right-side .share-services .share-services-container .input-container, .configuration .configuration-content .left-side .share-services .share-services-container .account-options .account-options-container .content-container, .configuration .configuration-content .left-side .account-options .account-options-container .share-services .share-services-container .content-container, .configuration .configuration-content .right-side .share-services .share-services-container .account-options .account-options-container .content-container, .configuration .configuration-content .right-side .account-options .account-options-container .share-services .share-services-container .content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 2px solid #000;
+  padding: 20px 0;
+}
+
+.configuration .configuration-content .left-side .share-services .share-services-container .input-container:last-child, .configuration .configuration-content .right-side .share-services .share-services-container .input-container:last-child, .configuration .configuration-content .left-side .share-services .share-services-container .account-options .account-options-container .content-container:last-child, .configuration .configuration-content .left-side .account-options .account-options-container .share-services .share-services-container .content-container:last-child, .configuration .configuration-content .right-side .share-services .share-services-container .account-options .account-options-container .content-container:last-child, .configuration .configuration-content .right-side .account-options .account-options-container .share-services .share-services-container .content-container:last-child {
+  border-bottom: none;
+}
+
+.configuration .configuration-content .left-side .share-services .share-services-container .input-container button, .configuration .configuration-content .right-side .share-services .share-services-container .input-container button, .configuration .configuration-content .left-side .share-services .share-services-container .account-options .account-options-container .content-container button, .configuration .configuration-content .left-side .account-options .account-options-container .share-services .share-services-container .content-container button, .configuration .configuration-content .right-side .share-services .share-services-container .account-options .account-options-container .content-container button, .configuration .configuration-content .right-side .account-options .account-options-container .share-services .share-services-container .content-container button {
+  padding: 0;
+  color: #f06464;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+}
+
+.configuration .configuration-content .left-side .share-services .all-accounts, .configuration .configuration-content .right-side .share-services .all-accounts {
+  margin-top: 20px;
+  padding: 0;
+  color: #f06464;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+}
+
+.configuration .configuration-content .right-side .directions {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.configuration .configuration-content .right-side .directions .upper-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.configuration .configuration-content .right-side .directions .direction-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.configuration .configuration-content .right-side .directions .direction-info .info p {
+  margin: 0;
+  font-weight: bold;
+  color: #00000099;
+  font-size: 14px;
+}
+
+.custom-primary-button {
+  background-color: transparent;
+  font-weight: bold;
+  color: #f06464;
+  border: none;
+  padding: 5px 0;
+}
+
+.custom-secondary-button {
+  padding: 5px 30px;
+  background-color: #1c2536;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: arial;
+  background-color: #f5f7fa !important;
+}
+
+h1 {
+  font-size: 1.5em !important;
 }
 /*# sourceMappingURL=style.css.map */
