@@ -869,7 +869,7 @@
 }
 
 .configuration .configuration-content .left-side, .configuration .configuration-content .right-side {
-  width: 40%;
+  width: 615px;
 }
 
 .configuration .configuration-content .left-side .profile, .configuration .configuration-content .right-side .profile {
@@ -1016,12 +1016,12 @@
   border: none;
 }
 
-.configuration .configuration-content .right-side .directions {
+.configuration .configuration-content .right-side .directions, .configuration .configuration-content .right-side .credit-cards, .configuration .configuration-content .right-side .email-accounts, .configuration .configuration-content .right-side .phone-numbers {
   padding: 20px;
   background-color: #fff;
 }
 
-.configuration .configuration-content .right-side .directions .upper-content {
+.configuration .configuration-content .right-side .directions .upper-content, .configuration .configuration-content .right-side .credit-cards .upper-content, .configuration .configuration-content .right-side .email-accounts .upper-content, .configuration .configuration-content .right-side .phone-numbers .upper-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1034,7 +1034,7 @@
   margin-bottom: 10px;
 }
 
-.configuration .configuration-content .right-side .directions .direction-info {
+.configuration .configuration-content .right-side .directions .direction-info, .configuration .configuration-content .right-side .credit-cards .direction-info, .configuration .configuration-content .right-side .email-accounts .direction-info, .configuration .configuration-content .right-side .phone-numbers .direction-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1044,11 +1044,142 @@
           justify-content: space-between;
 }
 
-.configuration .configuration-content .right-side .directions .direction-info .info p {
+.configuration .configuration-content .right-side .directions .direction-info .info p, .configuration .configuration-content .right-side .credit-cards .direction-info .info p, .configuration .configuration-content .right-side .email-accounts .direction-info .info p, .configuration .configuration-content .right-side .phone-numbers .direction-info .info p {
   margin: 0;
   font-weight: bold;
   color: #00000099;
   font-size: 14px;
+}
+
+.configuration .configuration-content .right-side .credit-cards, .configuration .configuration-content .right-side .email-accounts, .configuration .configuration-content .right-side .phone-numbers {
+  margin-top: 30px;
+}
+
+.configuration .configuration-content .right-side .credit-cards .upper-content, .configuration .configuration-content .right-side .email-accounts .upper-content, .configuration .configuration-content .right-side .phone-numbers .upper-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.configuration .configuration-content .right-side .credit-cards .credit-card, .configuration .configuration-content .right-side .email-accounts .credit-card, .configuration .configuration-content .right-side .phone-numbers .credit-card {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.configuration .configuration-content .right-side .credit-cards .credit-card .info-card, .configuration .configuration-content .right-side .email-accounts .credit-card .info-card, .configuration .configuration-content .right-side .phone-numbers .credit-card .info-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.configuration .configuration-content .right-side .credit-cards .credit-card .info-card .info, .configuration .configuration-content .right-side .email-accounts .credit-card .info-card .info, .configuration .configuration-content .right-side .phone-numbers .credit-card .info-card .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.configuration .configuration-content .right-side .credit-cards .credit-card .info-card .info p, .configuration .configuration-content .right-side .email-accounts .credit-card .info-card .info p, .configuration .configuration-content .right-side .phone-numbers .credit-card .info-card .info p {
+  font-weight: bold;
+  margin: 0;
+}
+
+.configuration .configuration-content .right-side .credit-cards .credit-card .info-card .info span, .configuration .configuration-content .right-side .email-accounts .credit-card .info-card .info span, .configuration .configuration-content .right-side .phone-numbers .credit-card .info-card .info span {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.configuration .configuration-content .right-side .credit-cards .lower-message, .configuration .configuration-content .right-side .email-accounts .lower-message, .configuration .configuration-content .right-side .phone-numbers .lower-message {
+  font-size: 14px;
+}
+
+.configuration .configuration-content .right-side .email-accounts .email-account, .configuration .configuration-content .right-side .phone-numbers .email-account {
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.configuration .configuration-content .right-side .email-accounts .email-account .info-email p, .configuration .configuration-content .right-side .phone-numbers .email-account .info-email p {
+  font-weight: bold;
+  margin: 0;
+}
+
+.configuration .configuration-content .right-side .phone-numbers .phone-number {
+  margin: 20px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.configuration .configuration-content .right-side .phone-numbers .phone-number .info-number p {
+  font-weight: bold;
+  margin: 0;
+}
+
+@media only screen and (max-width: 1470px) {
+  .configuration .configuration-content {
+    width: 90%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .configuration .configuration-content {
+    width: 95%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .configuration .configuration-content .left-side, .configuration .configuration-content .right-side {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .configuration .configuration-content .left-side .profile .profile-content, .configuration .configuration-content .right-side .profile .profile-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .custom-primary-button {

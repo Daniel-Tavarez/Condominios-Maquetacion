@@ -7,7 +7,7 @@
     gap: 30px;
     justify-content: center;
     .left-side {
-      width: 40%;
+      width: 615px;
       .profile {
         padding: 20px;
         background-color: #fff;
@@ -142,7 +142,107 @@
           }
         }
       }
-      
+      .credit-cards {
+        @extend .directions;
+        margin-top: 30px;
+        .upper-content {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-bottom: 10px;
+        }
+        .credit-card {
+          margin-top: 15px;
+          display: flex;
+          justify-content: space-between;
+          .info-card {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .info {
+              p {
+                font-weight: bold;
+                margin: 0;
+              }
+              span {
+                font-weight: bold;
+                font-size: 14px;
+              }
+              display: flex;
+              flex-direction: column;
+            }
+          }
+        }
+        .lower-message {
+          font-size: 14px;
+        }
+      }
+      .email-accounts {
+        @extend .credit-cards;
+        .email-account {
+          margin: 20px 0;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .info-email {
+            p {
+              font-weight: bold;
+              margin: 0;
+            }
+          }
+        }
+      }
+      .phone-numbers {
+        @extend .email-accounts;
+        .phone-number {
+          margin: 20px 0 0 0;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .info-number {
+            p {
+              font-weight: bold;
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1470px) {
+  .configuration {
+    .configuration-content {
+      width: 90%;
+      justify-content: space-between;
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .configuration {
+    .configuration-content {
+      width: 95%;
+      justify-content: space-between;
+      flex-direction: column;
+      .left-side {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .configuration {
+    .configuration-content {
+      .left-side {
+        .profile {
+          .profile-content {
+            flex-direction: column;
+          }
+        }
+      }
     }
   }
 }
