@@ -1,0 +1,50 @@
+@import "./variables";
+
+.form-viviendas {
+  .formulario {
+    max-width: 500px;
+    height: 580px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    .logo-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      img {
+        width: 45%;
+      }
+      h2 {
+        font-size: 1.3em;
+        font-weight: normal;
+      }
+      span {
+        color: $primary-color;
+      }
+    }
+    .input-content {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 80%;
+      margin: auto;
+      justify-content: center;
+      input{
+        border: 1px solid #b4b4b4;
+        height: 45px;
+        &::placeholder {
+          color: #838383;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

@@ -8,6 +8,15 @@
   padding: 5px 0;
 }
 
+.custom-primary-button-filled {
+  background-color: $primary-color;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  padding: 9px 0;
+  border-radius: 5px;
+}
+
 .custom-secondary-button {
   padding: 5px 30px;
   background-color: $secondary-color;
@@ -15,4 +24,11 @@
   font-weight: bold;
   border-radius: 10px;
   font-size: 14px;
+}
+
+.logo-button{
+  border: 1px solid #b4b4b4;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
 }

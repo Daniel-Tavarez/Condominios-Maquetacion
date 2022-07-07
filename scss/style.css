@@ -1190,6 +1190,15 @@
   padding: 5px 0;
 }
 
+.custom-primary-button-filled {
+  background-color: #f06464;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  padding: 9px 0;
+  border-radius: 5px;
+}
+
 .custom-secondary-button {
   padding: 5px 30px;
   background-color: #1c2536;
@@ -1197,6 +1206,511 @@
   font-weight: bold;
   border-radius: 10px;
   font-size: 14px;
+}
+
+.logo-button {
+  border: 1px solid #b4b4b4;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.clients .clients-content {
+  width: 90%;
+  max-width: 1400px;
+  margin: 50px auto;
+}
+
+.clients .clients-content .clients-content-upper-table {
+  background-color: #fff;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 40px;
+  width: 100%;
+  border: 1px solid #b4b4b4;
+}
+
+.clients .clients-content .clients-content-upper-table .upper, .clients .clients-content .clients-content-upper-table .lower {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.clients .clients-content .clients-content-upper-table .upper .left-side, .clients .clients-content .clients-content-upper-table .lower .left-side, .clients .clients-content .clients-content-upper-table .upper .configuration .configuration-content .right-side, .configuration .configuration-content .clients .clients-content .clients-content-upper-table .upper .right-side, .clients .clients-content .clients-content-upper-table .lower .configuration .configuration-content .right-side, .configuration .configuration-content .clients .clients-content .clients-content-upper-table .lower .right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.clients .clients-content .clients-content-upper-table .upper .left-side .image, .clients .clients-content .clients-content-upper-table .lower .left-side .image, .clients .clients-content .clients-content-upper-table .upper .configuration .configuration-content .right-side .image, .configuration .configuration-content .clients .clients-content .clients-content-upper-table .upper .right-side .image, .clients .clients-content .clients-content-upper-table .lower .configuration .configuration-content .right-side .image, .configuration .configuration-content .clients .clients-content .clients-content-upper-table .lower .right-side .image {
+  background-color: #b4b4b4;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #707070;
+}
+
+.clients .clients-content .clients-content-upper-table .upper .left-side .image img, .clients .clients-content .clients-content-upper-table .lower .left-side .image img, .clients .clients-content .clients-content-upper-table .upper .configuration .configuration-content .right-side .image img, .configuration .configuration-content .clients .clients-content .clients-content-upper-table .upper .right-side .image img, .clients .clients-content .clients-content-upper-table .lower .configuration .configuration-content .right-side .image img, .configuration .configuration-content .clients .clients-content .clients-content-upper-table .lower .right-side .image img {
+  width: 100%;
+  height: 100%;
+}
+
+.clients .clients-content .clients-content-upper-table .upper .left-side .info, .clients .clients-content .clients-content-upper-table .lower .left-side .info, .clients .clients-content .clients-content-upper-table .upper .configuration .configuration-content .right-side .info, .configuration .configuration-content .clients .clients-content .clients-content-upper-table .upper .right-side .info, .clients .clients-content .clients-content-upper-table .lower .configuration .configuration-content .right-side .info, .configuration .configuration-content .clients .clients-content .clients-content-upper-table .lower .right-side .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.clients .clients-content .clients-content-upper-table .upper .left-side .info p, .clients .clients-content .clients-content-upper-table .lower .left-side .info p, .clients .clients-content .clients-content-upper-table .upper .configuration .configuration-content .right-side .info p, .configuration .configuration-content .clients .clients-content .clients-content-upper-table .upper .right-side .info p, .clients .clients-content .clients-content-upper-table .lower .configuration .configuration-content .right-side .info p, .configuration .configuration-content .clients .clients-content .clients-content-upper-table .lower .right-side .info p {
+  color: #707070;
+  font-weight: bold;
+  margin: 0;
+}
+
+.clients .clients-content .clients-content-upper-table .upper .right-side, .clients .clients-content .clients-content-upper-table .lower .right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.clients .clients-content .clients-content-upper-table .upper .right-side .new, .clients .clients-content .clients-content-upper-table .lower .right-side .new, .clients .clients-content .clients-content-upper-table .upper .right-side .print, .clients .clients-content .clients-content-upper-table .lower .right-side .print {
+  cursor: pointer;
+  padding: 5px 20px;
+  color: #f06464;
+  background-color: transparent;
+  border: 1px solid #b4b4b4;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.clients .clients-content .clients-content-upper-table .upper .right-side .print, .clients .clients-content .clients-content-upper-table .lower .right-side .print {
+  margin-left: -5px;
+  border-right: 1px solid #b4b4b4;
+  border-radius: 5px;
+}
+
+.clients .clients-content .clients-content-upper-table .lower .right-side {
+  gap: 10px;
+}
+
+.clients .clients-content .clients-content-upper-table .lower .right-side .logo-button {
+  padding: 4px;
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.clients .clients-content .clients-content-upper-table .lower .right-side .logo-button:first-child {
+  width: auto;
+  padding: 0 20px;
+}
+
+.clients .clients-content .clients-content-upper-table .lower .right-side .logo-button img {
+  width: 90%;
+  height: 90%;
+}
+
+.clients .clients-content .clients-content-lower-table {
+  border-radius: 0 0 10px 10px;
+  width: 100%;
+  margin: 0 auto;
+  border-top: 0px;
+  border: 1px solid #b4b4b4;
+  background-color: #fff;
+  padding: 0;
+}
+
+.clients .clients-content .clients-content-lower-table .clients-table {
+  width: 100%;
+}
+
+.clients .clients-content .clients-content-lower-table .clients-table tbody tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 25px;
+  margin: 10px 0;
+  border-bottom: 1px solid #b4b4b4;
+}
+
+.clients .clients-content .clients-content-lower-table .clients-table tbody tr:first-child {
+  margin: 0;
+}
+
+.clients .clients-content .clients-content-lower-table .clients-table tbody tr:last-child {
+  border-bottom: 0;
+}
+
+.clients .clients-content .clients-content-lower-table .clients-table tbody tr th {
+  width: 10%;
+  border-left: 1px solid #000;
+  padding-left: 20px;
+}
+
+.clients .clients-content .clients-content-lower-table .clients-table tbody tr th:first-child {
+  width: 15%;
+  border-left: 0;
+  padding-left: 20px;
+}
+
+.clients .clients-content .clients-content-lower-table .clients-table tbody tr th:nth-child(7) {
+  width: 15%;
+}
+
+.clients .clients-content .clients-content-lower-table .clients-table tbody tr td {
+  width: 10%;
+  padding-left: 20px;
+}
+
+.clients .clients-content .clients-content-lower-table .clients-table tbody tr td:first-child {
+  width: 15%;
+  border-left: 0;
+  padding-left: 20px;
+}
+
+.clients .clients-content .clients-content-lower-table .clients-table tbody tr td:nth-child(7) {
+  width: 15%;
+}
+
+.form-viviendas .formulario {
+  max-width: 500px;
+  height: 580px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.form-viviendas .formulario .logo-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form-viviendas .formulario .logo-title img {
+  width: 45%;
+}
+
+.form-viviendas .formulario .logo-title h2 {
+  font-size: 1.3em;
+  font-weight: normal;
+}
+
+.form-viviendas .formulario .logo-title span {
+  color: #f06464;
+}
+
+.form-viviendas .formulario .input-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-viviendas .formulario .input-content input {
+  border: 1px solid #b4b4b4;
+  height: 45px;
+}
+
+.form-viviendas .formulario .input-content input::-webkit-input-placeholder {
+  color: #838383;
+  font-weight: bold;
+}
+
+.form-viviendas .formulario .input-content input:-ms-input-placeholder {
+  color: #838383;
+  font-weight: bold;
+}
+
+.form-viviendas .formulario .input-content input::-ms-input-placeholder {
+  color: #838383;
+  font-weight: bold;
+}
+
+.form-viviendas .formulario .input-content input::placeholder {
+  color: #838383;
+  font-weight: bold;
+}
+
+.form-user .formulario {
+  max-width: 500px;
+  height: 640px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.form-user .formulario .logo-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form-user .formulario .logo-title img {
+  width: 45%;
+}
+
+.form-user .formulario .logo-title h2 {
+  font-size: 1.3em;
+  font-weight: normal;
+}
+
+.form-user .formulario .logo-title span {
+  color: #f06464;
+}
+
+.form-user .formulario .input-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-user .formulario .input-content input {
+  border: 1px solid #b4b4b4;
+  height: 45px;
+}
+
+.form-user .formulario .input-content input::-webkit-input-placeholder {
+  color: #838383;
+  font-weight: bold;
+}
+
+.form-user .formulario .input-content input:-ms-input-placeholder {
+  color: #838383;
+  font-weight: bold;
+}
+
+.form-user .formulario .input-content input::-ms-input-placeholder {
+  color: #838383;
+  font-weight: bold;
+}
+
+.form-user .formulario .input-content input::placeholder {
+  color: #838383;
+  font-weight: bold;
+}
+
+.form-card .formulario {
+  max-width: 500px;
+  height: 710px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.form-card .formulario .logo-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form-card .formulario .logo-title img {
+  width: 45%;
+}
+
+.form-card .formulario .logo-title h2 {
+  font-size: 1.3em;
+  font-weight: normal;
+}
+
+.form-card .formulario .logo-title span {
+  color: #f06464;
+}
+
+.form-card .formulario .card-logo {
+  width: 200px;
+  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#f1f1f1));
+  background: linear-gradient(to right, #fff, #f1f1f1);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.form-card .formulario .card-logo img {
+  width: 80%;
+  height: 80%;
+}
+
+.form-card .formulario .input-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-card .formulario .input-content input,
+.form-card .formulario .input-content select {
+  border: 1px solid #b4b4b4;
+  height: 45px;
+  color: #838383;
+  font-weight: bold;
+}
+
+.form-card .formulario .input-content input::-webkit-input-placeholder,
+.form-card .formulario .input-content select::-webkit-input-placeholder {
+  color: #838383;
+  font-weight: bold;
+}
+
+.form-card .formulario .input-content input:-ms-input-placeholder,
+.form-card .formulario .input-content select:-ms-input-placeholder {
+  color: #838383;
+  font-weight: bold;
+}
+
+.form-card .formulario .input-content input::-ms-input-placeholder,
+.form-card .formulario .input-content select::-ms-input-placeholder {
+  color: #838383;
+  font-weight: bold;
+}
+
+.form-card .formulario .input-content input::placeholder,
+.form-card .formulario .input-content select::placeholder {
+  color: #838383;
+  font-weight: bold;
+}
+
+.form-card .formulario .input-content .cvv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 10px;
+}
+
+.form-card .formulario .input-content .cvv .cvv-logo {
+  width: 57px;
+  height: 42px;
+  background-image: url("../img/cards-methods.png");
+  background-repeat: no-repeat;
+  background-position: 0px -699px;
+}
+
+.form-card .formulario .input-content .checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 7px;
 }
 
 body {
